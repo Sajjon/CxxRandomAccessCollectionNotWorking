@@ -2,6 +2,6 @@
 #include <iostream>
 #include <vector>
 
-int foo();
-
-std::vector<std::string> fooVector();
+int anInt(); // Callable from Swift
+std::vector<int> anIntVector(); // Callable from Swift
+std::vector<std::string> aStringVector(); // ❌ NOT callable from Swift

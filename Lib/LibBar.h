@@ -2,5 +2,6 @@
 #include <iostream>
 #include <vector>
 
-int bar();
-std::vector<std::string> barVector();
+int fromLibAnInt();
+std::vector<int> fromLibIntVector();
+std::vector<std::string> fromLibStringVector();

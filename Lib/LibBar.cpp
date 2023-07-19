@@ -1,9 +1,13 @@
 #include "LibBar.h"
 
-int bar() {
+int fromLibAnInt() {
 	return 1300;
 }
 
-std::vector<std::string> barVector() {
+std::vector<int> fromLibIntVector() {
+	return {1, 3};
+}
+
+std::vector<std::string> fromLibStringVector() {
 	return {"1", "3"};
 }
