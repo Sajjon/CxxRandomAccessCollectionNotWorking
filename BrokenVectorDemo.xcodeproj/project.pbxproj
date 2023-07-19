@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48607DA92A67D4ED00693DCE /* LibSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48607DA82A67D4ED00693DCE /* LibSwift.swift */; };
 		48607DAC2A67D4FB00693DCE /* ConsumerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48607DAB2A67D4FB00693DCE /* ConsumerSwift.swift */; };
 		48607DAE2A67D56200693DCE /* libLib.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FA55552A67D2F8001241EB /* libLib.dylib */; };
 		48FA55592A67D2F8001241EB /* LibBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FA55582A67D2F8001241EB /* LibBar.h */; };
@@ -28,8 +27,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		48607DA72A67D4ED00693DCE /* Lib-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lib-Bridging-Header.h"; sourceTree = "<group>"; };
-		48607DA82A67D4ED00693DCE /* LibSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibSwift.swift; sourceTree = "<group>"; };
 		48607DAA2A67D4FA00693DCE /* Client-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Client-Bridging-Header.h"; sourceTree = "<group>"; };
 		48607DAB2A67D4FB00693DCE /* ConsumerSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumerSwift.swift; sourceTree = "<group>"; };
 		48FA55552A67D2F8001241EB /* libLib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libLib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,8 +87,6 @@
 			children = (
 				48FA55582A67D2F8001241EB /* LibBar.h */,
 				48FA555A2A67D2F8001241EB /* LibBar.cpp */,
-				48607DA82A67D4ED00693DCE /* LibSwift.swift */,
-				48607DA72A67D4ED00693DCE /* Lib-Bridging-Header.h */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -199,7 +194,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				48FA555B2A67D2F8001241EB /* LibBar.cpp in Sources */,
-				48607DA92A67D4ED00693DCE /* LibSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +334,6 @@
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Lib/Lib-Bridging-Header.h";
 				SWIFT_OBJC_INTEROP_MODE = objcxx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -357,7 +350,6 @@
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Lib/Lib-Bridging-Header.h";
 				SWIFT_OBJC_INTEROP_MODE = objcxx;
 				SWIFT_VERSION = 5.0;
 			};
